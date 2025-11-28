@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miftachul Azzam Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f6fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #1e3a5f;
+      padding: 15px;
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #1e3a5f;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    a.nav-button {
+      color: #1e3a5f;
+      font-weight: bold;
+    }
+
+    a.nav-button:hover {
+      color: #ff9900;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: palegoldenrod #1e3a5f;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    /* Responsive Nav */
+    @media (min-width: 600px) {
+      .navbar {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="/home.html">Home</a>
+      <a href="/portofolio.html">Portfolio</a>
+      <a href="/tentang.html">About</a>
+      <a href="/kontak.html">Contact</a>
+      <a href="/mediasosial.html">Social Media</a>
+    </div>
+  </nav>
+
+  <main>
+    <ins>
+      <h3><i>hello everyone!!</i></h3>
+      <h1>Welcome to My Portfolio Website
+    </ins></h1>
+    <p>
+      I'm <strong>Miftachul Azzam Al Mawardy</strong>, want to know more?
+      Please go to the <a href="/tentang.html" class="nav-button">About</a> page.
+    </p>
+    <img src="gununge.jpg" alt="Mountain View" width="400" />
+    <br><br>
+    <i>Thank you for visiting my website!</i>
+  </main>
+  <footer class="footer">
+    &copy; 2025
+  </footer>
+</body>
+
+</html>

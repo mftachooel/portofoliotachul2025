@@ -1,0 +1,59 @@
+* {
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar {
+    background-color: #75a1b7;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.9s ease;
+    display: flex; width: 92%;
+    justify-content: space-between;
+    padding: 21px;
+    align-items: center;
+}
+
+.profilePicture {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.atas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.bawah {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+@media screen and (max-width:600px) {
+    .profilePicture{gap: 4px}
+    .list {display: flex; flex-direction: column;}
+    .nav-img{width: 50px; height: 50px;}
+}
+
+.nav-img {
+    border-radius: 10%;
+}
+
+.footer {
+    position: absolute;
+    bottom: -27%;
+    width: 100%;
+}
+
+.navbar {
+  color: white;
+  text-decoration: none;
+  margin: 8px 15px;
+  font-weight: 600;
+  transition: color 0.3s;
+}

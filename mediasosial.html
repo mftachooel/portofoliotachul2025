@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miftachul Azzam Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Reset and basic */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f6fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #1e3a5f;
+      padding: 15px 0;
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #1e3a5f;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      font-size: 1.5em;
+      margin: 15px 0;
+    }
+
+    a.social-link {
+      color: #1e3a5f;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a.social-link:hover {
+      color: #ff9900;
+    }
+
+    .social-image {
+      max-width: 100%;
+      width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: #1e3a5f;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (min-width: 600px) {
+      .navbar {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="/home.html">Home</a>
+      <a href="/portfolio.html">Portfolio</a>
+      <a href="/about.html">About</a>
+      <a href="/kontak.html">Contact</a>
+      <a href="/mediasocial.html">Social Media</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1><i><ins>My Social Media Accounts</ins></i></h1>
+
+    <section>
+      <h3>First Instagram Account</h3>
+      <h2><a class="social-link" href="https://www.instagram.com/zambrodoll_/" target="_blank">@zambrodoll_</a></h2>
+      <img class="social-image" src="pertama.jpg" alt="first Accounts" />
+    </section>
+
+    <section>
+      <h3>Second Instagram Account</h3>
+      <h2><a class="social-link" href="https://www.instagram.com/mift.achuul/" target="_blank">@mift.achuul</a></h2>
+      <img class="social-image" src="mift.jpg" alt="second Accounts" />
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025
+  </footer>
+</body>
+
+</html>
